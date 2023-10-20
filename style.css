@@ -1,7 +1,20 @@
-img {
+#homepage {
   width: 400px;
   height: 400px;
   object-fit: cover;
+}
+
+#portfolio-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-image {
+  width: 50%;
+  height: auto;
+  margin: 10px;
 }
 
 body {
