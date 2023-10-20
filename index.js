@@ -1,5 +1,6 @@
-const btn = document.querySelector(".btn-toggle");
-btn.addEventListener("click", function () {
-  // Then toggle (add/remove) the .dark-theme class to the body
+const button = document.querySelector(".button-toggle");
+
+function onToggle(event) {
   document.body.classList.toggle("dark-theme");
-});
+}
+button.addEventListener("click", onToggle);
