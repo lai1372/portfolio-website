@@ -33,10 +33,34 @@
   margin: 20px;
 }
 
+.tbsearchbar {
+  padding-top: 10px;
+  color: red; //To add some color.
+}
+
 .portfolio-image {
   width: 50%;
   height: auto;
   margin: 10px;
+}
+
+blockquote {
+  background: #446a32;
+  border-left: 10px solid #ffffff;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #f19e9e;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
 
 footer {
@@ -45,7 +69,7 @@ footer {
   justify-content: space-around;
   background-color: rgb(71, 114, 46);
   width: 100%;
-  padding: 2;
+  padding: 2%;
   margin-top: auto;
 }
 
@@ -72,7 +96,10 @@ footer {
 .nav-link:hover {
   background-color: #d0d5ff;
 }
-
+.footer-heading {
+  font-size: 20px;
+  padding: 10px;
+}
 main {
   background-color: #2634b2;
   position: absolute;
