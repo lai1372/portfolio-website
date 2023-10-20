@@ -37,6 +37,29 @@
   margin: 10px;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-header{
+    ;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    width: 70%;
+    height: 3em;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: none;
+    margin: .05em;
+}
+
 body {
   color: #222;
   background: #fff;
