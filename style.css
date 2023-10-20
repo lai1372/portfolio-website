@@ -68,7 +68,7 @@ footer {
 }
 
 .nav-link:hover {
-  background-color: #0a840a;
+  background-color: #d0d5ff;
 }
 
 nav {
@@ -98,9 +98,7 @@ body.dark-theme {
   color: #eee;
   background: #121212;
 }
-body.dark-theme a {
-  color: #809fff;
-}
+
 
 .timeline {
   position: relative;
