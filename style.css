@@ -42,8 +42,10 @@
 footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   background-color: rgb(71, 114, 46);
   width: 100%;
+  padding: 2;
   margin-top: auto;
 }
 
@@ -71,10 +73,19 @@ footer {
   background-color: #d0d5ff;
 }
 
+main {
+  background-color: #2634b2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 nav {
   background-color: #ffc69b;
   padding: 2%;
 }
+
 body {
   color: #222;
   background: #fff;
@@ -98,7 +109,6 @@ body.dark-theme {
   color: #eee;
   background: #121212;
 }
-
 
 .timeline {
   position: relative;
